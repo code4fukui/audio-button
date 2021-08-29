@@ -4,6 +4,7 @@ class AudioButton extends HTMLElement {
     Object.assign(this.style, {
       "border": "1px solid black",
       "padding": ".2em .5em",
+      "margin": ".1em",
       "border-radius": ".2em",
       "background-color": "#eee",
     });
