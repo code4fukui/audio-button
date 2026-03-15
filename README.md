@@ -1,5 +1,7 @@
 # audio-button
 
+> 日本語のREADMEはこちらです: [README.ja.md](README.ja.md)
+
 ## Self-contained Custom Element (for Chrome & Safari)
 
 - [audio-button.js](audio-button.js)
