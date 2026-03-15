@@ -1,11 +1,30 @@
 # audio-button
- 
-## 自律カスタム要素 (for Chrome & Safari)
+
+## Self-contained Custom Element (for Chrome & Safari)
 
 - [audio-button.js](audio-button.js)
-- [sample](https://code4fukui.github.io/audio-button/)
+- [Sample](https://code4fukui.github.io/audio-button/)
 
-## ボタンカスタム要素 (for Chrome)
+## Button Custom Element (for Chrome)
 
 - [audio-button-is.js](audio-button-is.js)
-- [sample](https://code4fukui.github.io/audio-button/index-is.html)
+- [Sample](https://code4fukui.github.io/audio-button/index-is.html)
+
+## Features
+- Provides a custom HTML element to play audio on click
+- Supports both a standalone custom element and an "is" custom element for button
+- Styles the button with a simple border, padding, and background
+
+## Usage
+To use the standalone custom element:
+```html
+<audio-button src="test.mp3">test</audio-button>
+```
+
+To use the "is" custom element:
+```html
+<button is="audio-button" src="test.mp3">test</button>
+```
+
+## License
+MIT License
