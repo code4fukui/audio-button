@@ -1,17 +1,13 @@
 # audio-button
 
-1つ以上のオーディオファイルを再生するカスタムWebコンポーネントです。Chrome、Safariに対応しています。
-
-## デモ
-- [自律カスタム要素](https://code4fukui.github.io/audio-button/)
-- [ボタンカスタム要素](https://code4fukui.github.io/audio-button/index-is.html)
+1つ以上のオーディオファイルを再生する、Chrome/Safariに対応したカスタムWebコンポーネントです。
 
 ## 機能
-- クリックするとオーディオファイルを再生するカスタムWebコンポーネント
-- 自律カスタム要素 (`<audio-button>`) と、ボタン要素をカスタムする (`<button is="audio-button">`) の2つのバージョン
+- クリックするとオーディオファイルを再生する
+- 自律カスタム要素 (`<audio-button>`) と、ボタン要素をカスタムする (`<button is="audio-button">`) の2つのバージョンを提供
 
 ## 使い方
-HTMLに以下のように記述すると使用できます。
+HTMLに以下のように記述するとすぐに使えます。
 
 ```html
 <audio-button src="test.mp3">test</audio-button>
